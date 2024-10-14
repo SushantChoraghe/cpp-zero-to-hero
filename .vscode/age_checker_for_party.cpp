@@ -1,7 +1,7 @@
 /*
 here we are going to learn 
-1. local, global and constant variables
-2. if else and loops
+
+2. if else structure
 3. included own created header file maned as main.hpp
 4. previous learning
 */
