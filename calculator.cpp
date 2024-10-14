@@ -30,7 +30,7 @@ int main(){
     char e;
     double calculate;
 
-    
+
 
     cout <<"Enter the 1st number: "<< endl;
     cin >> a ;
@@ -54,8 +54,61 @@ int main(){
     cout << "The entered character is: " << e << endl;
     
 
-
-
-
     return 0;
 }
+
+
+
+
+
+
+
+// /*
+// here we are learning to build a calculator using switch cases
+// */
+
+// # include "main.hpp"
+
+// int main(){
+
+//     double a,b;
+//     double calculate; 
+//     char sign;
+    
+//     cout<<"Enter the 1st number: "<<endl;
+//     cin>>a;
+//     cout<<"Enter the 2nd number: "<<endl;
+//     cin>>b;
+//     cout<<"Enter the operator: "<<endl;
+//     cin>>sign;
+
+//     switch (sign)
+//     {
+//     case '+':
+//         calculate = a + b;
+//         cout<<"Addition of "<<a<<" and "<<b<<" is "<<calculate<<endl;
+//         break;
+
+//     case '-':
+//         calculate = a - b;
+//         cout<<"Addition of "<<a<<" and "<<b<<" is "<<calculate<<endl;
+//         break; 
+
+//     case '*':
+//         calculate = a * b;
+//         cout<<"Addition of "<<a<<" and "<<b<<" is "<<calculate<<endl;
+//         break;
+
+//     case '/':
+//         calculate = a / b;
+//         cout<<"Addition of "<<a<<" and "<<b<<" is "<<calculate<<endl;
+//         break;
+           
+//     default:
+//         break;
+//     }
+
+
+
+//     return 0;
+// }
