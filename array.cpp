@@ -3,17 +3,22 @@
 #include<string>
 using namespace std;
 
+
+int sum(int a, int b){
+
+    int c = a+b;
+    return c;
+}
+
 int main(){
 
-    int number[4]={1,2,3,4};
-    int i=0;
-    do
-    {
-        cout<<number[i]<<endl;
-        i++;
-    }while(i<4);
+    int num1, num2;
+    cin>>num1;
+    cin>>num2;
+    cout<<
+    sum(num1,num2);
     
-
+    
 
 
 
