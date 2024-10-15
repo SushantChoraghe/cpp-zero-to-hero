@@ -1,5 +1,11 @@
 /*
-here we are going to learn about how to use loops and switch statements
+
+
+here we are going to learn about how to use loops and switch statements and use old learnings also
+
+
+
+
 
 Task: You are tasked with building a Number Guessing Game in C++. 
 The program should randomly generate a number between 0 and 99, and the user 
@@ -92,7 +98,7 @@ int main(){
         {
         
         case 'y':
-            cout<<"Great. Lets play one more time!!"<<endl;
+            cout<<"Great. Lets play one more time!!\n"<<endl;
             endTheGame=true;
             break;
         
@@ -110,6 +116,6 @@ int main(){
 
 
     } while(endTheGame);
-    
+
     return 0;
 }
