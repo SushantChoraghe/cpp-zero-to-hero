@@ -92,12 +92,27 @@ int main(){
     // s2.grade = 7.8;
 
 
+    //this is copy constructor
+    /* 
+    This constrctor copies the items  from s1 constructor and it is a deep copy.
+    Also we can modify the value in new object but it changes in new object not in old one
+    from where you are copying.
+    */
+    //Student s4 = s1;
+    // s4.name = "Abhilash";
+
+    // also we can do copy constructor like this
+
+    Student s4(s1);
+    s4.name = "nandu";
+
 
     // To print we can make a funtion also which takes the class argument line s1,s2
 
     print(s1);
     print(s2);
     print(s3);
+    print(s4);
     
 
 
