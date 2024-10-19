@@ -23,7 +23,11 @@ class Student {
     float grade;
 
 
-    Student(string s, int r, float g)
+    Student(string s, int r, float g){
+        name = s;
+        rollno = r;
+        grade = g;
+    }
 };
 
 
@@ -46,20 +50,21 @@ void change(Student a){
 
 int main(){
     
-    Student s1,s2;
+    // Student s1,s2;
+    Student s1("Himanshu", 98, 9.2);
     
-    s1.name = "Donald";
-    s1.rollno = 450;
-    s1.grade = 9.8;
+    // s1.name = "Donald";
+    // s1.rollno = 450;
+    // s1.grade = 9.8;
     
-    s2.name = "Himanshu";
-    s2.rollno = 100;
-    s2.grade = 7.8;
+    // s2.name = "Himanshu";
+    // s2.rollno = 100;
+    // s2.grade = 7.8;
 
     // To print we can make a funtion also which takes the class argument line s1,s2
 
     print(s1);
-    print(s2);
+    // print(s2);
     change(s1); //here the s1.name is changes in only function not in main s1. This is called, pass by value 
     print(s1);
 

@@ -3,7 +3,7 @@
 #include<string>
 using namespace std;
 
-//here the class is the template. 
+//here the class is the template or format. 
 //Consider it as a new datatype inside we can define anytype we want.
 
 class Student {
@@ -14,6 +14,7 @@ class Student {
     float grade;
 
 };
+
 
 
 //Here we are defining the funtion for printing the Student class
