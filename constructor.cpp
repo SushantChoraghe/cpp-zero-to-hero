@@ -23,10 +23,21 @@ class Student {
     float grade;
 
 
-    Student(string s, int r, float g){
+    Student(string s, int r, float g){ //tis is paramatric constructor and keep the sequesnce same dont change it
         name = s;
         rollno = r;
         grade = g;
+    }
+
+    Student(int r, float g, string s){ //tis is paramatric constructor and keep the sequesnce same dont change it
+        rollno = r;
+        grade = g;
+        name = s;
+
+    }
+
+    Student(){ // this is default constructor
+
     }
 };
 
@@ -50,12 +61,13 @@ void change(Student a){
 
 int main(){
     
-    // Student s1,s2;
     Student s1("Himanshu", 98, 9.2);
-    
-    // s1.name = "Donald";
-    // s1.rollno = 450;
-    // s1.grade = 9.8;
+    Student s2(100,1.8,"Amit");
+    Student s3;
+
+    s3.name = "Donald";
+    s3.rollno = 450;
+    s3.grade = 9.8;
     
     // s2.name = "Himanshu";
     // s2.rollno = 100;
@@ -64,9 +76,10 @@ int main(){
     // To print we can make a funtion also which takes the class argument line s1,s2
 
     print(s1);
-    // print(s2);
-    change(s1); //here the s1.name is changes in only function not in main s1. This is called, pass by value 
-    print(s1);
+    print(s2);
+    print(s3);
+    //change(s1); //here the s1.name is changes in only function not in main s1. This is called, pass by value 
+    //print(s1);
 
     //this is our normal way to show output
     // cout<<s1.name<<" "<<s1.grade<<" "<<s1.rollno<<endl; 
