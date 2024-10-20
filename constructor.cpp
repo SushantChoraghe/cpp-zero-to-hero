@@ -13,6 +13,34 @@ using namespace std;
 lets learn one by one about each constructor
 */
 
+/*
+how constructor works:
+This s sample constructor as below
+
+Student(string s, int r, float g){ 
+        name = s;
+        rollno = r;
+        grade = g;
+
+Student s1("Himanshu", 98, 9.2);
+
+
+here we have s1 object storing name, rollno, grade 3 boxes joined each other (image as a array)
+now the object search and calls the constructor who have a sting, int and float format.
+
+Now after fining the constructot, it creates new 3 boxes named as s,r and g.
+In s it saves "Himanshu", in r it saves "98" and in g it saves "9.2" 
+
+
+now it gives s value into name which is associated with c1
+now it gives r value into rplllno which is associated with c1
+now it gives g value into grade which is associated with c1
+
+
+and this is how our value gets stored in object and after that we are going to print it.
+
+
+*/
 
 
 class Student {
